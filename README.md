@@ -1,10 +1,3 @@
-Berdasarkan dokumen PDF persyaratan yang Anda berikan, file `README.md` harus mencakup instruksi instalasi yang sangat spesifik, prasyarat, dan penjelasan mengenai fitur yang diimplementasikan.
-
-Berikut adalah isi file `README.md` yang telah disesuaikan agar memenuhi kriteria penilaian pada halaman 6 PDF tersebut:
-
----
-
-```markdown
 # Airline Voucher Seat Assignment Application
 
 Aplikasi web Voucher Seat Assignment yang dibangun untuk kampanye promosi maskapai penerbangan. Aplikasi ini memungkinkan awak kabin untuk memasukkan detail penerbangan dan menghasilkan 3 kursi unik secara acak berdasarkan tata letak pesawat tertentu.
@@ -118,17 +111,3 @@ Untuk menjalankan automated testing (Feature Tests):
 
 ```bash
 php artisan test
-
-```
-
-```
-
----
-
-### Hal-hal penting yang disesuaikan dari PDF:
-1. **Prerequisites**: Mencantumkan PHP 8.2+ dan alat lainnya sesuai Halaman 6.
-2. **Setup Steps**: Menyusun langkah-langkah dari `composer install` hingga `php artisan serve` sesuai poin 1-5 di PDF.
-3. **Aircraft Rules**: Menjelaskan aturan baris dan kursi (terutama pengecualian ATR) agar penguji tahu logika tersebut sudah diimplementasikan.
-4. **Testing**: Menambahkan instruksi `php artisan test` karena ini adalah nilai bonus yang diminta di dokumen.
-
-```
